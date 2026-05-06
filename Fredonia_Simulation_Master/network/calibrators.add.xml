@@ -1,0 +1,29 @@
+<additional>
+    <vType id="passenger_car" vClass="passenger" length="5.0" sigma="0.5"/>
+    <vType id="heavy_truck" vClass="truck" length="12.0" sigma="0.5"/>
+
+    
+    <calibrator id="cal_-1090984406#1" edge="-1090984406#1" pos="0">
+        <interval begin="0" end="3600" vehsPerHour="455" type="passenger_car"/>
+        <interval begin="0" end="3600" vehsPerHour="23" type="heavy_truck"/>
+    </calibrator>
+
+    
+    <calibrator id="cal_-121963431#1" edge="-121963431#1" pos="0">
+        <interval begin="0" end="3600" vehsPerHour="1049" type="passenger_car"/>
+        <interval begin="0" end="3600" vehsPerHour="55" type="heavy_truck"/>
+    </calibrator>
+
+    
+    <calibrator id="cal_-1089468402#2" edge="-1089468402#2" pos="0">
+        <interval begin="0" end="3600" vehsPerHour="230" type="passenger_car"/>
+        <interval begin="0" end="3600" vehsPerHour="12" type="heavy_truck"/>
+    </calibrator>
+
+    
+    <calibrator id="cal_-1097307222" edge="-1097307222" pos="0">
+        <interval begin="0" end="3600" vehsPerHour="49" type="passenger_car"/>
+        <interval begin="0" end="3600" vehsPerHour="2" type="heavy_truck"/>
+    </calibrator>
+
+</additional>

@@ -1,0 +1,9 @@
+<additional>
+    <calibrator id="cal_east_main_in" edge="WESTBOUND_EDGE_ID" pos="0" period="3600">
+        <flow begin="0" end="3600" vehsPerHour="479" type="passenger_car"/>
+    </calibrator>
+
+    <calibrator id="cal_east_main_out" edge="EASTBOUND_EDGE_ID" pos="0" period="3600">
+        <flow begin="0" end="3600" vehsPerHour="479" type="passenger_car"/>
+    </calibrator>
+</additional>
